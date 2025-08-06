@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Perplexity Chat",
+  "version": "1.0",
+  "description": "Copies Perplexity AI chat conversations to the clipboard with a single click.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "*://*.perplexity.ai/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

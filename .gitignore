@@ -1,0 +1,32 @@
+# 環境変数ファイル
+.env
+.env.local
+.env.*.local
+
+# 依存関係
+node_modules/
+venv/
+*.pyc
+__pycache__/
+
+# ビルド生成物
+build/
+dist/
+out/
+
+# ログファイル
+*.log
+
+# 一時ファイル
+*.tmp
+*.swp
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# その他の一般的な無視ファイル
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
